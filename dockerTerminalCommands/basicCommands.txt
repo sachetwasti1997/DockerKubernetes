@@ -1,0 +1,8 @@
+*   docker pull nginx --> Pulls the image to the host machine, from the docker registry
+*   docker image ls --> shows the list of images in the host machine
+*   docker container run -d nginx --> runs the nginx image in the background in detached mode
+*   docker container inspect e1fad63a62c1/container_name --> Shows all the information related to a container
+*   docker container ps --> all the running containers
+*   docker container ps -a --> all the containers running or stopped
+*   docker container exec -i -t e1fad63a62c1 bash --> log into the terminal of the container in interactive mode ie, log into it
+    using bash shell
